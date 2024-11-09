@@ -10,7 +10,7 @@ namespace HarmonicSerieAlt
 
             for(int n = 0; n <= t; n++)
             {
-                r += Math.Pow(1, n) / n;
+                r += Math.Pow(-1, n + 1) / n;
             }
             return r;
         }
